@@ -94,21 +94,99 @@ body {
   color: #000000;
 }
 
-@media (max-width: 623px) {
+.Portfolio {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Portfolio__content {
+  margin: 60px auto 60px auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Portfolio__item {
+  width: 35%;
+  margin: 40px auto;
+}
+
+.Portfolio__img {
+  max-width: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 auto;
+  height: auto;
+}
+
+.Portfolio__itemTextStrong {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 41px;
+  font-weight: 900;
+  line-height: 1.03;
+  letter-spacing: 1.67px;
+  text-align: left;
+  color: #000000;
+  margin-top: 30px;
+}
+
+.Portfolio__itemTextSmall {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.24;
+  text-align: left;
+  color: #000000;
+}
+
+.Portfolio__itemTextZobacz {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 900;
+  line-height: 1.21;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #000000;
+  opacity: 0.6;
+}
+
+@media (max-width: 860px) and (min-width: 600px) {
+  .Team {
+    width: 100%;
+  }
+  .Team__item {
+    width: 40%;
+  }
+  .Portfolio {
+    width: 100%;
+  }
+  .Portfolio__item {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
   .Page {
     width: 100%;
   }
   .Page__title {
-    font-size: 50px;
+    font-size: 40px;
   }
   .Team {
     width: 100%;
   }
-  .Team__content {
-    display: block;
-  }
   .Team__item {
-    width: 80%;
+    width: 90%;
+  }
+  .Portfolio {
+    width: 100%;
+  }
+  .Portfolio__item {
+    width: 90%;
   }
 }
 /*# sourceMappingURL=main.css.map */
