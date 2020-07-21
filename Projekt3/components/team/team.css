@@ -14,16 +14,18 @@
 }
 
 .Team__content {
-  margin: 40px auto 40px auto;
+  margin: 60px auto 60px auto;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .Team__item {
-  width: 30%;
-  margin: 0 auto;
+  width: 28%;
+  margin: 30px auto;
 }
 
 .Team__img {
@@ -43,6 +45,7 @@
   letter-spacing: 0.79px;
   text-align: center;
   color: #000000;
+  margin-top: 20px;
 }
 
 .Team__item-text {
