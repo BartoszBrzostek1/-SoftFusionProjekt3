@@ -66,7 +66,7 @@ body {
 .Team__img {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   border-radius: 50%;
 }
@@ -92,5 +92,23 @@ body {
   letter-spacing: 0.79px;
   text-align: center;
   color: #000000;
+}
+
+@media (max-width: 623px) {
+  .Page {
+    width: 100%;
+  }
+  .Page__title {
+    font-size: 50px;
+  }
+  .Team {
+    width: 100%;
+  }
+  .Team__content {
+    display: block;
+  }
+  .Team__item {
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
