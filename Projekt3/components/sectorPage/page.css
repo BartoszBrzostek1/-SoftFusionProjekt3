@@ -1,6 +1,7 @@
 body {
   padding: 0 !important;
   margin: 0 !important;
+  overflow-x: hidden;
 }
 
 .Page {
@@ -8,6 +9,7 @@ body {
   margin: 0;
   padding: 5px;
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 .Page--otherBG {
