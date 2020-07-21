@@ -1,0 +1,22 @@
+.Team {
+  width: 1040px;
+  margin: 40px;
+}
+
+.Team__text {
+  width: 100%;
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 1.47;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: #030405;
+}
+
+.Team__content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=team.css.map */
