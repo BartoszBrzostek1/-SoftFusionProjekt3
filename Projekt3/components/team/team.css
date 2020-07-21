@@ -1,6 +1,6 @@
 .Team {
-  width: 1400px;
-  margin: 20px 100px 20px 220px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .Team__text {
@@ -14,7 +14,7 @@
 }
 
 .Team__content {
-  margin: 70px 0 70px 0;
+  margin: 40px auto 40px auto;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,19 +22,15 @@
 }
 
 .Team__item {
-  width: 273px;
-  margin-right: 270px;
-}
-
-.Team__item:last-child {
-  margin-right: 0;
+  width: 30%;
+  margin: 0 auto;
 }
 
 .Team__img {
-  width: 100%;
-  height: 273px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
   border-radius: 50%;
 }
 
