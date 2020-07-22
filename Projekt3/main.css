@@ -1,6 +1,6 @@
 body {
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0;
+  margin: 0;
   overflow-x: hidden;
 }
 
@@ -26,7 +26,7 @@ body {
   font-family: sans-serif;
   font-size: 68px;
   font-weight: 900;
-  line-height: 0.37;
+  line-height: 1;
   letter-spacing: 2.72px;
   text-align: left;
   color: #010101;
@@ -39,7 +39,7 @@ body {
 }
 
 .Team__text {
-  width: 100%;
+  max-width: 100%;
   font-family: sans-serif;
   font-weight: bold;
   line-height: 1.47;
@@ -49,30 +49,36 @@ body {
 }
 
 .Team__content {
-  margin: 60px auto 60px auto;
+  margin: 60px 0;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .Team__item {
-  width: 28%;
-  margin: 30px auto;
+  -ms-flex-preferred-size: 33.33%;
+      flex-basis: 33.33%;
+  margin: 20px 0;
 }
 
 .Team__img {
   display: block;
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 274px;
+  width: 100%;
   height: auto;
   border-radius: 50%;
 }
 
 .Team__item-textBlod {
-  width: 100%;
+  max-width: 100%;
   font-family: sans-serif;
   font-size: 19.6px;
   font-weight: 900;
@@ -80,11 +86,12 @@ body {
   letter-spacing: 0.79px;
   text-align: center;
   color: #000000;
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
 }
 
 .Team__item-text {
-  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
   font-family: sans-serif;
   font-size: 19.6px;
   font-weight: 500;
@@ -100,25 +107,30 @@ body {
 }
 
 .Portfolio__content {
-  margin: 60px auto 60px auto;
+  padding: 30px 0;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .Portfolio__item {
-  width: 35%;
-  margin: 40px auto;
+  -ms-flex-preferred-size: 44%;
+      flex-basis: 44%;
+  padding: 0 3%;
+  margin-bottom: 60px;
 }
 
 .Portfolio__img {
-  max-width: 100%;
+  max-width: 430px;
+  width: 100%;
   display: block;
-  -o-object-fit: cover;
-     object-fit: cover;
   margin: 0 auto;
   height: auto;
 }
@@ -131,7 +143,8 @@ body {
   letter-spacing: 1.67px;
   text-align: left;
   color: #000000;
-  margin-top: 30px;
+  max-width: 430px;
+  margin: 30px auto;
 }
 
 .Portfolio__itemTextSmall {
@@ -141,38 +154,21 @@ body {
   line-height: 1.24;
   text-align: left;
   color: #000000;
+  max-width: 430px;
+  margin: 0 auto;
 }
 
-.Portfolio__itemTextZobacz {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 21px;
-  font-weight: 900;
-  line-height: 1.21;
-  letter-spacing: 0.8px;
-  text-align: left;
-  color: #000000;
-  opacity: 0.6;
-}
-
-@media (max-width: 860px) and (min-width: 600px) {
+@media (max-width: 960px) and (min-width: 680px) {
   .Team {
     width: 100%;
   }
   .Team__item {
-    width: 40%;
-  }
-  .Portfolio {
-    width: 100%;
-  }
-  .Portfolio__item {
-    width: 70%;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
   }
 }
 
-@media (max-width: 600px) {
-  .Page {
-    width: 100%;
-  }
+@media (max-width: 680px) {
   .Page__title {
     font-size: 40px;
   }
@@ -180,13 +176,15 @@ body {
     width: 100%;
   }
   .Team__item {
-    width: 90%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
   }
   .Portfolio {
     width: 100%;
   }
   .Portfolio__item {
-    width: 90%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */

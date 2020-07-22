@@ -2,7 +2,7 @@
     width: 100%
     margin: 0 auto
     &__text
-        width: 100%
+        max-width: 100%
         font-family: sans-serif
         font-weight: bold
         line-height: 1.47
@@ -10,21 +10,23 @@
         text-align: left
         color: #030405
     &__content
-        margin: 60px auto 60px auto
+        margin: 60px 0
         width: 100%
         display: flex
-        flex-wrap: wrap
+        flex-flow: row wrap
+        justify-content: space-around
     &__item
-        width: 28%
-        margin: 30px auto
+        flex-basis: 33.33%
+        margin: 20px 0
     &__img
         display: block
         margin: 0 auto
-        max-width: 80%
+        max-width: 274px
+        width: 100%
         height: auto
         border-radius: 50%
     &__item-textBlod
-        width: 100%
+        max-width: 100%
         font-family: sans-serif
         font-size: 19.6px
         font-weight: 900
@@ -32,9 +34,10 @@
         letter-spacing: 0.79px
         text-align: center
         color: #000000
-        margin-top: 20px
+        margin: 20px auto 0 auto
     &__item-text
-        width: 100%
+        max-width: 100%
+        margin: 0 auto
         font-family: sans-serif
         font-size: 19.6px
         font-weight: 500
