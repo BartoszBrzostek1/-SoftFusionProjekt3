@@ -181,29 +181,26 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
 .Service__item {
-  display: block;
   width: 33.33%;
   margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 20px;
 }
 
 .Service__inner {
   width: 316px;
   height: 326px;
   margin: 0 auto;
-  -webkit-transition: .4s;
-  transition: .4s;
   background: transparent;
-  cursor: default;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -212,14 +209,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .Service__inner:hover {
@@ -229,10 +218,13 @@ body {
 .Service__boxTitle {
   display: block;
   width: 100%;
-  padding-left: 20px;
+  padding-left: 80px;
+  margin-top: 64px;
 }
 
 .Service__inner:hover .Service__boxTitle {
+  margin-top: 26px;
+  padding-left: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -243,14 +235,14 @@ body {
 
 .Service__img {
   max-width: 100%;
-  max-height: 72px;
+  max-height: 86px;
   margin: 0 auto 25px 0;
   display: block;
 }
 
 .Service__inner:hover .Service__img {
-  max-width: 52px;
-  max-height: 52px;
+  max-width: 50px;
+  max-height: 50px;
   margin: 0 20px 0 0;
 }
 
@@ -262,7 +254,7 @@ body {
   text-align: left;
   color: #000000;
   display: inline-block;
-  width: 80%;
+  width: 70%;
 }
 
 .Service__inner:hover .Service__itemTitle {
@@ -272,26 +264,60 @@ body {
 
 .Service__itemText {
   display: none;
-  max-width: 100%;
+  max-width: 70%;
   font-family: sans-serif;
   font-size: 19px;
   line-height: 1.58;
   text-align: left;
   color: #000000;
-  padding: 0 33px 30px;
+  margin: 15px 0 0 23px;
 }
 
 .Service__inner:hover .Service__itemText {
   display: block;
 }
 
-@media (max-width: 1000px) and (min-width: 680px) {
+@media (max-width: 1100px) and (min-width: 1000px) {
+  .Service {
+    width: 100%;
+  }
+  .Service__item {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 780px) {
   .Team {
     width: 100%;
   }
   .Team__item {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
+  }
+  .Service {
+    width: 100%;
+  }
+  .Service__item {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
+@media (max-width: 780px) and (min-width: 680px) {
+  .Team {
+    width: 100%;
+  }
+  .Team__item {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .Service {
+    width: 100%;
+  }
+  .Service__item {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
   }
 }
 
@@ -310,6 +336,13 @@ body {
     width: 100%;
   }
   .Portfolio__item {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .Service {
+    width: 100%;
+  }
+  .Service__item {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
