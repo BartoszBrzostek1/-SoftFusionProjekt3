@@ -5,17 +5,18 @@
 
 .Team__text {
   max-width: 100%;
+  font-size: 19px;
   font-family: sans-serif;
   font-weight: bold;
   line-height: 1.47;
   letter-spacing: 0.75px;
   text-align: left;
   color: #030405;
-  margin: 0 70px;
+  margin: 0 88px;
 }
 
 .Team__content {
-  margin: 60px 10px;
+  margin: 60px 25px;
   max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,7 +33,10 @@
 .Team__item {
   -ms-flex-preferred-size: 33.33%;
       flex-basis: 33.33%;
-  margin: 20px 0;
+  margin-bottom: 68px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 20px;
 }
 
 .Team__img {

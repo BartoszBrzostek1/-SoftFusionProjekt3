@@ -30,7 +30,7 @@ body {
   letter-spacing: 2.72px;
   text-align: left;
   color: #010101;
-  margin: 60px 0;
+  margin: 50px 0;
 }
 
 .Team {
@@ -40,17 +40,18 @@ body {
 
 .Team__text {
   max-width: 100%;
+  font-size: 19px;
   font-family: sans-serif;
   font-weight: bold;
   line-height: 1.47;
   letter-spacing: 0.75px;
   text-align: left;
   color: #030405;
-  margin: 0 70px;
+  margin: 0 88px;
 }
 
 .Team__content {
-  margin: 60px 10px;
+  margin: 60px 25px;
   max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -67,7 +68,10 @@ body {
 .Team__item {
   -ms-flex-preferred-size: 33.33%;
       flex-basis: 33.33%;
-  margin: 20px 0;
+  margin-bottom: 68px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 20px;
 }
 
 .Team__img {
@@ -123,14 +127,20 @@ body {
 }
 
 .Portfolio__item {
-  -ms-flex-preferred-size: 44%;
-      flex-basis: 44%;
-  padding: 0 3%;
-  margin-bottom: 60px;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 0 20px;
+  margin-bottom: 80px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Portfolio__inner {
+  max-width: 430px;
+  margin: 0 auto;
 }
 
 .Portfolio__img {
-  max-width: 430px;
   width: 100%;
   display: block;
   margin: 0 auto;
@@ -146,7 +156,7 @@ body {
   text-align: left;
   color: #000000;
   max-width: 430px;
-  margin: 30px auto;
+  margin: 34px auto 24px auto;
 }
 
 .Portfolio__itemTextSmall {
@@ -156,7 +166,7 @@ body {
   line-height: 1.24;
   text-align: left;
   color: #000000;
-  max-width: 430px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -166,8 +176,8 @@ body {
 }
 
 .Service__content {
-  padding: 30px 0;
-  width: 100%;
+  padding: 30px 20px;
+  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,24 +185,73 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .Service__item {
-  width: 316px;
-  height: 326px;
-  padding: 25px;
+  display: block;
+  width: 33.33%;
+  margin-bottom: 20px;
 }
 
-.Service__item:hover {
+.Service__inner {
+  width: 316px;
+  height: 326px;
+  margin: 0 auto;
+  -webkit-transition: .4s;
+  transition: .4s;
+  background: transparent;
+  cursor: default;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Service__inner:hover {
   background-color: #f07f1a;
 }
 
+.Service__boxTitle {
+  display: block;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.Service__inner:hover .Service__boxTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 .Service__img {
-  max-width: 88px;
-  height: auto;
-  margin-bottom: 30px;
+  max-width: 100%;
+  max-height: 72px;
+  margin: 0 auto 25px 0;
+  display: block;
+}
+
+.Service__inner:hover .Service__img {
+  max-width: 52px;
+  max-height: 52px;
+  margin: 0 20px 0 0;
 }
 
 .Service__itemTitle {
@@ -202,10 +261,31 @@ body {
   line-height: 1.23;
   text-align: left;
   color: #000000;
+  display: inline-block;
   width: 80%;
 }
 
-@media (max-width: 960px) and (min-width: 680px) {
+.Service__inner:hover .Service__itemTitle {
+  font-size: 24px;
+  text-align: left;
+}
+
+.Service__itemText {
+  display: none;
+  max-width: 100%;
+  font-family: sans-serif;
+  font-size: 19px;
+  line-height: 1.58;
+  text-align: left;
+  color: #000000;
+  padding: 0 33px 30px;
+}
+
+.Service__inner:hover .Service__itemText {
+  display: block;
+}
+
+@media (max-width: 1000px) and (min-width: 680px) {
   .Team {
     width: 100%;
   }
