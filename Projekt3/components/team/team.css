@@ -11,10 +11,11 @@
   letter-spacing: 0.75px;
   text-align: left;
   color: #030405;
+  margin: 0 80px;
 }
 
 .Team__content {
-  margin: 60px 0;
+  margin: 60px 10px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -23,8 +24,9 @@
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .Team__item {
