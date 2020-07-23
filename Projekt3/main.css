@@ -46,12 +46,12 @@ body {
   letter-spacing: 0.75px;
   text-align: left;
   color: #030405;
-  margin: 0 80px;
+  margin: 0 70px;
 }
 
 .Team__content {
   margin: 60px 10px;
-  width: 100%;
+  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
