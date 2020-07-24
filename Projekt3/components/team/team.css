@@ -33,6 +33,7 @@
 .Team__item {
   -ms-flex-preferred-size: 33.33%;
       flex-basis: 33.33%;
+  height: auto;
   margin-bottom: 68px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

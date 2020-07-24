@@ -1,4 +1,4 @@
-@import 'components/sectorPage/page', 'components/team/team', 'components/portfolio/portfolio', 'components/service/service'
+@import 'components/sectorPage/page', 'components/team/team', 'components/portfolio/portfolio', 'components/service/service', 'components/article/article'
 
 
     
@@ -7,7 +7,7 @@
         width: 100%
         &__item
             flex-basis: 50%  
-@media (max-width: 1000px) and (min-width: 780px)
+@media (max-width: 1000px) and (min-width: 680px)
     .Team
         width: 100%
         &__item
@@ -16,11 +16,7 @@
         width: 100%
         &__item
             flex-basis: 50%
-@media (max-width: 780px) and (min-width: 680px)
-    .Team
-        width: 100%
-        &__item
-            flex-basis: 50%
+@media (max-width: 780px) //only for Service
     .Service
         width: 100%
         &__item
@@ -41,3 +37,5 @@
         width: 100%
         &__item
             flex-basis: 100%
+        &__boxTitle
+            padding-left: 40px
