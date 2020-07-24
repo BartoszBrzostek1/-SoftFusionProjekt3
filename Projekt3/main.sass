@@ -1,5 +1,4 @@
-@import 'components/sectorPage/page', 'components/team/team', 'components/portfolio/portfolio', 'components/service/service', 'components/article/article'
-
+@import 'components/sectorPage/page', 'components/team/team', 'components/portfolio/portfolio', 'components/service/service', 'components/article/article', 'components/footer/footer'
 
     
 @media (max-width: 1100px) and (min-width: 1000px)
@@ -8,6 +7,10 @@
         &__item
             flex-basis: 50%  
 @media (max-width: 1000px) and (min-width: 680px)
+    .Footer
+        width: 100%
+        &__media
+            margin: 15px 50px 0 auto
     .Team
         width: 100%
         &__item
@@ -32,6 +35,22 @@
     .Page
         &__title
             font-size: 40px
+    .Footer
+        width: 100%
+        padding: 28px 0
+        flex-direction: column
+        align-items: center
+        &__media
+            width: 100%
+            margin: 0
+        &__adres
+            width: 100%
+        &__numbers
+            width: 100%
+            margin: 5px 0
+            padding: 5px 0
+            border-bottom: 1px solid
+            border-top: 1px solid
     .Team
         width: 100%
         &__item
