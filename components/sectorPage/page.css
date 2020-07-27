@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.Page {
+  width: 100%;
+  margin: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+.Page__container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.Page--otherBG {
+  background-color: #d8d8d8;
+}
+
+.Page__title {
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 68px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 2.72px;
+  text-align: left;
+  color: #010101;
+  margin: 50px 0;
+}
+/*# sourceMappingURL=page.css.map */

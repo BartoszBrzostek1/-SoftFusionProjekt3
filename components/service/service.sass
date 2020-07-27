@@ -1,0 +1,66 @@
+.Service
+    width: 100%
+    margin: 0 auto
+    &__content
+        padding: 30px 20px
+        max-width: 100%
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+    &__item
+        width: 33.33%
+        margin-bottom: 20px
+        box-sizing: border-box
+        padding: 0 20px
+    &__inner
+        width: 316px
+        height: 326px
+        margin: 0 auto
+        background: transparent
+        overflow: hidden
+        display: flex
+        flex-direction: column
+        &:hover
+            background-color: #f07f1a
+    &__boxTitle
+        display: block
+        width: 100%
+        padding-left: 80px
+        margin-top: 64px
+        .Service__inner:hover &
+            margin-top: 26px
+            padding-left: 20px
+            display: flex
+            justify-content: flex-start  
+    &__img
+        max-width: 100%
+        max-height: 86px
+        margin: 0 auto 25px 0
+        display: block
+        .Service__inner:hover &
+            max-width: 50px
+            max-height: 50px
+            margin: 0 20px 0 0
+    &__itemTitle
+        font-family: sans-serif
+        font-size: 26px
+        font-weight: 900
+        line-height: 1.23
+        text-align: left
+        color: #000000
+        display: inline-block
+        width: 70%
+        .Service__inner:hover &
+            font-size: 24px
+            text-align: left
+    &__itemText
+        display: none
+        max-width: 70%
+        font-family: sans-serif
+        font-size: 19px
+        line-height: 1.58
+        text-align: left
+        color: #000000
+        margin: 15px 0 0 23px
+        .Service__inner:hover &
+            display: block
