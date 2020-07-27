@@ -598,6 +598,7 @@ body {
   }
   .Footer__media {
     width: 100%;
+    padding-left: 0;
     margin: 0;
   }
   .Footer__adres {
@@ -605,7 +606,7 @@ body {
   }
   .Footer__numbers {
     width: 100%;
-    margin: 5px 0;
+    margin: 5px -5px;
     padding: 5px 0;
     border-bottom: 1px solid;
     border-top: 1px solid;
