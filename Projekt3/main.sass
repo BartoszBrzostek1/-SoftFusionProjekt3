@@ -1,6 +1,6 @@
 @import 'components/sectorPage/page'
 @import 'components/team/team'
-@import 'components/portfolio/portfolio'
+@import 'components/portfolio/portfolio', 'components/portfolio/portfolioContent'
 @import 'components/cooperation/cooperation'
 @import 'components/footer/footer'
 @import 'components/article/article'
@@ -11,36 +11,35 @@
     
 @media (max-width: 1100px) and (min-width: 1000px)
     .Service
-        width: 100%
         &__item
             flex-basis: 50%  
     .Recruitment
-        width: 100%
         &__mainText
             padding-right: 400px
         &__aplikuj
             padding-left: 70%
+    .PortfolioContent
+        padding: 0 40px
+        &__motorText
+            font-size: 17px
+        &__motorTitle
+            font-size: 40px
 @media (max-width: 1000px) and (min-width: 680px)
     .Footer
-        width: 100%
         &__media
             margin: 15px 50px 0 auto
     .Team
-        width: 100%
         &__item
             flex-basis: 50%
     .Service
-        width: 100%
         &__item
             flex-basis: 50%
     .Article
-        width: 100%
         &__imgBox
             flex-basis: 100%
         &__textBlod
             width: 60%
     .Coop
-        width: 100%
         &__text
             width: 100%
             margin-bottom: 60px
@@ -48,24 +47,33 @@
             width: 100%
             padding: 0 86px
     .Recruitment
-        width: 100%
         &__mainText
             padding-right: 200px
         &__aplikuj
             padding-left: 60%
         &__textSearch
             width: 100%
+    .PortfolioContent
+        padding: 0 60px
+        &__boxMotor
+            margin: 0 auto
+            width: 100%
+        &__contentMotor
+            width: 100%
+            margin: 0 auto
+        &__motorText
+            font-size: 17px
+        &__motorTitle
+            font-size: 40px
 @media (max-width: 780px) //only for Service
     .Service
-        width: 100%
         &__item
             flex-basis: 100%
 @media (max-width: 680px)
     .Page
         &__title
-            font-size: 40px
+            font-size: 35px
     .Footer
-        width: 100%
         padding: 28px 0
         flex-direction: column
         align-items: center
@@ -82,27 +90,24 @@
             border-bottom: 1px solid
             border-top: 1px solid
     .Team
-        width: 100%
         &__item
             flex-basis: 100%
     .Portfolio
-        width: 100%
         &__item
             flex-basis: 100%
     .Service
-        width: 100%
+        &__content
+            padding: 30px 0
         &__item
             flex-basis: 100%
         &__boxTitle
             padding-left: 40px
     .Article
-        width: 100%
         &__imgBox
             flex-basis: 100%
         &__textBlod
             width: 100%
     .Coop
-        width: 100%
         &__text
             width: 100%
             margin-bottom: 60px
@@ -111,7 +116,6 @@
             width: 100%
             padding: 0 20px
     .Recruitment
-        width: 100%
         padding-left: 10px
         &__mainText
             padding-right: 10px
@@ -121,4 +125,24 @@
             width: 100%
             padding-right: 10px
         &__optionSearch
+            width: 100%
+    .PortfolioContent
+        padding: 0 10px
+        &__boxMotor
+            margin: 0 auto
+            width: 1000%
+        &__imgMotor
+            width: 100%
+        &__contentMotor
+            width: 100%
+            margin: 0 auto
+        &__motorText
+            font-size: 17px
+        &__motorTitle
+            font-size: 40px
+        &__boxBird
+            flex-basis: 100%
+        &__boxWoman
+            flex-basis: 100%
+        &__textBlod
             width: 100%

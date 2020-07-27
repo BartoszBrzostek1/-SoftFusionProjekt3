@@ -171,6 +171,131 @@ body {
   margin: 0 auto;
 }
 
+.PortfolioContent {
+  max-width: 100%;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 90px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.PortfolioContent__boxMotor {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-right: 40px;
+}
+
+.PortfolioContent__imgMotor {
+  max-width: 424px;
+  width: 100%;
+  height: auto;
+}
+
+.PortfolioContent__contentMotor {
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 2px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.PortfolioContent__motorTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 43px;
+  font-weight: 900;
+  line-height: 1.29;
+  letter-spacing: 1.67px;
+  text-align: left;
+  color: #000000;
+  width: 100%;
+  margin: 40px 0;
+}
+
+.PortfolioContent__motorText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 2;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: #000000;
+  width: 100%;
+}
+
+.PortfolioContent__text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  line-height: 1.47;
+  text-align: left;
+  color: #000000;
+  width: 100%;
+  margin: 60px 0;
+}
+
+.PortfolioContent__boxTextBlod {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.PortfolioContent__textBlod {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 31px;
+  font-weight: 900;
+  line-height: 1.17;
+  letter-spacing: 0.58px;
+  text-align: left;
+  color: #000000;
+  width: 640px;
+  margin: 0 auto;
+}
+
+.PortfolioContent__boxBird {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+
+.PortfolioContent__imgBird {
+  max-width: 509px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.PortfolioContent__boxWoman {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 100px;
+  padding: 0 10px;
+}
+
+.PortfolioContent__imgWoman {
+  max-width: 509px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
 .Coop {
   width: 100%;
   margin: 0 auto;
@@ -605,21 +730,15 @@ body {
   font-size: 24px;
   font-weight: 900;
   color: #000000;
-  width: 100%;
+  max-width: 100%;
   padding-left: 80%;
   margin-bottom: 100px;
 }
 
 @media (max-width: 1100px) and (min-width: 1000px) {
-  .Service {
-    width: 100%;
-  }
   .Service__item {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
-  }
-  .Recruitment {
-    width: 100%;
   }
   .Recruitment__mainText {
     padding-right: 400px;
@@ -627,31 +746,28 @@ body {
   .Recruitment__aplikuj {
     padding-left: 70%;
   }
+  .PortfolioContent {
+    padding: 0 40px;
+  }
+  .PortfolioContent__motorText {
+    font-size: 17px;
+  }
+  .PortfolioContent__motorTitle {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 1000px) and (min-width: 680px) {
-  .Footer {
-    width: 100%;
-  }
   .Footer__media {
     margin: 15px 50px 0 auto;
-  }
-  .Team {
-    width: 100%;
   }
   .Team__item {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
   }
-  .Service {
-    width: 100%;
-  }
   .Service__item {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
-  }
-  .Article {
-    width: 100%;
   }
   .Article__imgBox {
     -ms-flex-preferred-size: 100%;
@@ -660,9 +776,6 @@ body {
   .Article__textBlod {
     width: 60%;
   }
-  .Coop {
-    width: 100%;
-  }
   .Coop__text {
     width: 100%;
     margin-bottom: 60px;
@@ -670,9 +783,6 @@ body {
   .Coop__form {
     width: 100%;
     padding: 0 86px;
-  }
-  .Recruitment {
-    width: 100%;
   }
   .Recruitment__mainText {
     padding-right: 200px;
@@ -683,12 +793,26 @@ body {
   .Recruitment__textSearch {
     width: 100%;
   }
+  .PortfolioContent {
+    padding: 0 60px;
+  }
+  .PortfolioContent__boxMotor {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .PortfolioContent__contentMotor {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .PortfolioContent__motorText {
+    font-size: 17px;
+  }
+  .PortfolioContent__motorTitle {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 780px) {
-  .Service {
-    width: 100%;
-  }
   .Service__item {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -697,10 +821,9 @@ body {
 
 @media (max-width: 680px) {
   .Page__title {
-    font-size: 40px;
+    font-size: 35px;
   }
   .Footer {
-    width: 100%;
     padding: 28px 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -725,22 +848,16 @@ body {
     border-bottom: 1px solid;
     border-top: 1px solid;
   }
-  .Team {
-    width: 100%;
-  }
   .Team__item {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-  }
-  .Portfolio {
-    width: 100%;
   }
   .Portfolio__item {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
-  .Service {
-    width: 100%;
+  .Service__content {
+    padding: 30px 0;
   }
   .Service__item {
     -ms-flex-preferred-size: 100%;
@@ -749,17 +866,11 @@ body {
   .Service__boxTitle {
     padding-left: 40px;
   }
-  .Article {
-    width: 100%;
-  }
   .Article__imgBox {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
   .Article__textBlod {
-    width: 100%;
-  }
-  .Coop {
     width: 100%;
   }
   .Coop__text {
@@ -772,7 +883,6 @@ body {
     padding: 0 20px;
   }
   .Recruitment {
-    width: 100%;
     padding-left: 10px;
   }
   .Recruitment__mainText {
@@ -786,6 +896,37 @@ body {
     padding-right: 10px;
   }
   .Recruitment__optionSearch {
+    width: 100%;
+  }
+  .PortfolioContent {
+    padding: 0 10px;
+  }
+  .PortfolioContent__boxMotor {
+    margin: 0 auto;
+    width: 1000%;
+  }
+  .PortfolioContent__imgMotor {
+    width: 100%;
+  }
+  .PortfolioContent__contentMotor {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .PortfolioContent__motorText {
+    font-size: 17px;
+  }
+  .PortfolioContent__motorTitle {
+    font-size: 40px;
+  }
+  .PortfolioContent__boxBird {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .PortfolioContent__boxWoman {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .PortfolioContent__textBlod {
     width: 100%;
   }
 }
