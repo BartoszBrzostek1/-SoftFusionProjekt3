@@ -27,6 +27,9 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .Article__title {
@@ -61,7 +64,7 @@
   width: 37%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  margin-top: 80px;
+  margin-bottom: 60px;
 }
 
 .Article__imgBox {
