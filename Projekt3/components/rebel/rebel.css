@@ -1,0 +1,297 @@
+.Rebel {
+  max-width: 100%;
+  margin: 100px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Rebel__boxWiecej {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 30px 0;
+}
+
+.Rebel__textWiecej {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.7;
+  text-align: left;
+  color: #000000;
+}
+
+.Rebel__sectorMain {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: auto;
+  margin-bottom: 80px;
+}
+
+.Rebel__mainTextBox {
+  width: 40%;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Rebel__mainText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.7;
+  text-align: left;
+  color: #000000;
+  margin: 0 auto;
+}
+
+.Rebel__mainSlider {
+  width: 60%;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #f07f1a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Rebel__sliderImg {
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  max-width: 700px;
+  width: 100%;
+}
+
+.Rebel__sliderText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.47;
+  text-align: left;
+  color: #000000;
+  margin: 0 auto 30px auto;
+  width: 317px;
+}
+
+.Rebel__sectorContent {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.Rebel__contentItems {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Rebel__itemsItem {
+  width: 33.33%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 20px;
+  margin-bottom: 10px;
+}
+
+.Rebel__itemsImg {
+  width: 53px;
+  height: auto;
+}
+
+.Rebel__itemsTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+  text-align: left;
+  color: #000000;
+  margin: 20px 0;
+}
+
+.Rebel__itemsList {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.24;
+  text-align: left;
+  color: #000000;
+  padding-left: 0;
+}
+
+.Rebel__itemsLogo {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Rebel__itemsLogoImg {
+  width: 160px;
+  margin: 0 10px;
+}
+
+.Rebel__sectorService {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 40px;
+}
+
+.Rebel__serviceImgBoxPartner {
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 0 10px 40px 10px;
+}
+
+.Rebel__serviceImgBoxCircle {
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: auto;
+  padding: 0 10px;
+}
+
+.Rebel__serviceImgPartner {
+  max-width: 525px;
+  width: 100%;
+  height: auto;
+  padding-left: 40px;
+}
+
+.Rebel__serviceImgCircle {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+}
+
+.Rebel__sectorPortfolio {
+  width: 100%;
+  margin-top: 40px;
+  background-image: url("PATTERN.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Rebel__portfolioItem {
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 20px;
+  margin-bottom: 70px;
+}
+
+.Rebel__portfolioItemBox {
+  margin: 0 auto;
+  max-width: 425px;
+}
+
+.Rebel__portfolioItemImg {
+  max-width: 425px;
+  width: 100%;
+  display: block;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  height: auto;
+}
+
+.Rebel__portfolioItemTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 1.03;
+  letter-spacing: 1.67px;
+  text-align: left;
+  color: #000000;
+  margin: 35px 0;
+}
+
+.Rebel__portfolioItemText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.24;
+  text-align: left;
+  color: #000000;
+}
+
+.Rebel__sectorClients {
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 30px;
+}
+
+.Rebel__clientsItem {
+  width: 25%;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Rebel__clientsItemImg {
+  max-width: 150px;
+  width: 100%;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+  height: auto;
+}
+/*# sourceMappingURL=rebel.css.map */
