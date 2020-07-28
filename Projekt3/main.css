@@ -1098,6 +1098,7 @@ body {
   .PortfolioContent__boxMotor {
     margin: 0 auto;
     width: 100%;
+    padding-right: 0;
   }
   .PortfolioContent__contentMotor {
     width: 100%;
@@ -1208,7 +1209,8 @@ body {
   }
   .PortfolioContent__boxMotor {
     margin: 0 auto;
-    width: 1000%;
+    width: 100%;
+    padding-right: 0;
   }
   .PortfolioContent__imgMotor {
     width: 100%;
